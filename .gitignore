@@ -1,0 +1,8 @@
+lib/*.o
+tests/*.c
+tests/*.h
+tests/*.o
+tests/*.p4i
+p4c-zodiacfx
+
+.DS_Store
