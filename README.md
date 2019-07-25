@@ -30,7 +30,7 @@ sudo ldconfig # refresh shared library cache.`
 ### P4-16 Compiler
 First you need to follow the installation guide of [P4-16](https://github.com/p4lang/p4c/)
 When you have P4-16 compiler, then add this project as an extension.
-Assuming you have P4-16 at your dir  ~/p4c/, to setup P4C-ZODIACFX:
+Assuming you have P4-16 at your dir  ~/p4c/, to setup p4c-zodiacfx:
 ```bash
 cd ~/p4c/
 mkdir extensions
@@ -53,3 +53,6 @@ Next create a soft link to the binary:
 cd ~/p4c/extensions/p4c-zodiacfx
 ln -s ~/p4c/build/p4c-zodiacfx p4c-zodiacfx
 ```
+
+### Current Status
+This is the first version of this extension and very much a work in progress to don't expect too much at the start with, more functionality will be added over time. On that note, any assistance would be extremely welcome. 
